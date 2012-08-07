@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CABD07615D1560B00E01269 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CABD07515D1560B00E01269 /* Cocoa.framework */; };
+		6CABD07815D1560B00E01269 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CABD07715D1560B00E01269 /* MacRuby.framework */; };
+		6CABD08115D1560B00E01269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD07F15D1560B00E01269 /* InfoPlist.strings */; };
+		6CABD08315D1560B00E01269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CABD08215D1560B00E01269 /* main.m */; };
+		6CABD08815D1560B00E01269 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD08615D1560B00E01269 /* MainMenu.xib */; };
+		6CABD08B15D1560B00E01269 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD08A15D1560B00E01269 /* rb_main.rb */; };
+		6CABD08D15D1560B00E01269 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD08C15D1560B00E01269 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CABD07A15D1560B00E01269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CABD06815D1560B00E01269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CABD07015D1560B00E01269;
+			remoteInfo = Prjs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CABD07115D1560B00E01269 /* Prjs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prjs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CABD07515D1560B00E01269 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6CABD07715D1560B00E01269 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6CABD07E15D1560B00E01269 /* Prjs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prjs-Info.plist"; sourceTree = "<group>"; };
+		6CABD08015D1560B00E01269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CABD08215D1560B00E01269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CABD08415D1560B00E01269 /* Prjs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prjs-Prefix.pch"; sourceTree = "<group>"; };
+		6CABD08715D1560B00E01269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6CABD08A15D1560B00E01269 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6CABD08C15D1560B00E01269 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CABD06E15D1560B00E01269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CABD07615D1560B00E01269 /* Cocoa.framework in Frameworks */,
+				6CABD07815D1560B00E01269 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CABD06615D1560B00E01269 = {
+			isa = PBXGroup;
+			children = (
+				6CABD07C15D1560B00E01269 /* Prjs */,
+				6CABD07415D1560B00E01269 /* Frameworks */,
+				6CABD07215D1560B00E01269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CABD07215D1560B00E01269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CABD07115D1560B00E01269 /* Prjs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CABD07415D1560B00E01269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CABD07515D1560B00E01269 /* Cocoa.framework */,
+				6CABD07715D1560B00E01269 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CABD07C15D1560B00E01269 /* Prjs */ = {
+			isa = PBXGroup;
+			children = (
+				6CABD08C15D1560B00E01269 /* AppDelegate.rb */,
+				6CABD08515D1560B00E01269 /* Resources */,
+				6CABD08915D1560B00E01269 /* Other Sources */,
+				6CABD07D15D1560B00E01269 /* Supporting Files */,
+			);
+			path = Prjs;
+			sourceTree = "<group>";
+		};
+		6CABD07D15D1560B00E01269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CABD07E15D1560B00E01269 /* Prjs-Info.plist */,
+				6CABD07F15D1560B00E01269 /* InfoPlist.strings */,
+				6CABD08215D1560B00E01269 /* main.m */,
+				6CABD08415D1560B00E01269 /* Prjs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CABD08515D1560B00E01269 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CABD08615D1560B00E01269 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CABD08915D1560B00E01269 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6CABD08A15D1560B00E01269 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6CABD07915D1560B00E01269 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 6CABD09315D1560B00E01269 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				6CABD07B15D1560B00E01269 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6CABD07015D1560B00E01269 /* Prjs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CABD09015D1560B00E01269 /* Build configuration list for PBXNativeTarget "Prjs" */;
+			buildPhases = (
+				6CABD06D15D1560B00E01269 /* Sources */,
+				6CABD06E15D1560B00E01269 /* Frameworks */,
+				6CABD06F15D1560B00E01269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prjs;
+			productName = Prjs;
+			productReference = 6CABD07115D1560B00E01269 /* Prjs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CABD06815D1560B00E01269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Wouter de Bie";
+			};
+			buildConfigurationList = 6CABD06B15D1560B00E01269 /* Build configuration list for PBXProject "Prjs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CABD06615D1560B00E01269;
+			productRefGroup = 6CABD07215D1560B00E01269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CABD07015D1560B00E01269 /* Prjs */,
+				6CABD07915D1560B00E01269 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CABD06F15D1560B00E01269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CABD08115D1560B00E01269 /* InfoPlist.strings in Resources */,
+				6CABD08815D1560B00E01269 /* MainMenu.xib in Resources */,
+				6CABD08B15D1560B00E01269 /* rb_main.rb in Resources */,
+				6CABD08D15D1560B00E01269 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CABD06D15D1560B00E01269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CABD08315D1560B00E01269 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CABD07B15D1560B00E01269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CABD07015D1560B00E01269 /* Prjs */;
+			targetProxy = 6CABD07A15D1560B00E01269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CABD07F15D1560B00E01269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CABD08015D1560B00E01269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CABD08615D1560B00E01269 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CABD08715D1560B00E01269 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CABD08E15D1560B00E01269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CABD08F15D1560B00E01269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CABD09115D1560B00E01269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prjs/Prjs-Prefix.pch";
+				INFOPLIST_FILE = "Prjs/Prjs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CABD09215D1560B00E01269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prjs/Prjs-Prefix.pch";
+				INFOPLIST_FILE = "Prjs/Prjs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CABD09415D1560B00E01269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6CABD09515D1560B00E01269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CABD06B15D1560B00E01269 /* Build configuration list for PBXProject "Prjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CABD08E15D1560B00E01269 /* Debug */,
+				6CABD08F15D1560B00E01269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CABD09015D1560B00E01269 /* Build configuration list for PBXNativeTarget "Prjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CABD09115D1560B00E01269 /* Debug */,
+				6CABD09215D1560B00E01269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CABD09315D1560B00E01269 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CABD09415D1560B00E01269 /* Debug */,
+				6CABD09515D1560B00E01269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CABD06815D1560B00E01269 /* Project object */;
+}
