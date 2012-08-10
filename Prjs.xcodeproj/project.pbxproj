@@ -11,9 +11,11 @@
 		6CABD07815D1560B00E01269 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CABD07715D1560B00E01269 /* MacRuby.framework */; };
 		6CABD08115D1560B00E01269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD07F15D1560B00E01269 /* InfoPlist.strings */; };
 		6CABD08315D1560B00E01269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CABD08215D1560B00E01269 /* main.m */; };
-		6CABD08815D1560B00E01269 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD08615D1560B00E01269 /* MainMenu.xib */; };
 		6CABD08B15D1560B00E01269 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD08A15D1560B00E01269 /* rb_main.rb */; };
 		6CABD08D15D1560B00E01269 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD08C15D1560B00E01269 /* AppDelegate.rb */; };
+		6CABD09B15D1573400E01269 /* projects.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD09A15D1573400E01269 /* projects.png */; };
+		6CABD09E15D15A2D00E01269 /* SettingsController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD09D15D15A2D00E01269 /* SettingsController.rb */; };
+		6CABD0A015D15A7B00E01269 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD09F15D15A7B00E01269 /* Settings.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 		6CABD08015D1560B00E01269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CABD08215D1560B00E01269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CABD08415D1560B00E01269 /* Prjs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prjs-Prefix.pch"; sourceTree = "<group>"; };
-		6CABD08715D1560B00E01269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6CABD08A15D1560B00E01269 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		6CABD08C15D1560B00E01269 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		6CABD09A15D1573400E01269 /* projects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projects.png; sourceTree = "<group>"; };
+		6CABD09D15D15A2D00E01269 /* SettingsController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SettingsController.rb; sourceTree = "<group>"; };
+		6CABD09F15D15A7B00E01269 /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				6CABD08515D1560B00E01269 /* Resources */,
 				6CABD08915D1560B00E01269 /* Other Sources */,
 				6CABD07D15D1560B00E01269 /* Supporting Files */,
+				6CABD09D15D15A2D00E01269 /* SettingsController.rb */,
+				6CABD09F15D15A7B00E01269 /* Settings.xib */,
 			);
 			path = Prjs;
 			sourceTree = "<group>";
@@ -103,7 +109,7 @@
 		6CABD08515D1560B00E01269 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6CABD08615D1560B00E01269 /* MainMenu.xib */,
+				6CABD09A15D1573400E01269 /* projects.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -186,9 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CABD08115D1560B00E01269 /* InfoPlist.strings in Resources */,
-				6CABD08815D1560B00E01269 /* MainMenu.xib in Resources */,
 				6CABD08B15D1560B00E01269 /* rb_main.rb in Resources */,
 				6CABD08D15D1560B00E01269 /* AppDelegate.rb in Resources */,
+				6CABD09B15D1573400E01269 /* projects.png in Resources */,
+				6CABD09E15D15A2D00E01269 /* SettingsController.rb in Resources */,
+				6CABD0A015D15A7B00E01269 /* Settings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,14 +228,6 @@
 				6CABD08015D1560B00E01269 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6CABD08615D1560B00E01269 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6CABD08715D1560B00E01269 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,6 +287,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -304,6 +305,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -345,6 +347,7 @@
 				6CABD09215D1560B00E01269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CABD09315D1560B00E01269 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -353,6 +356,7 @@
 				6CABD09515D1560B00E01269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
