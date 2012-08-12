@@ -1,20 +1,21 @@
 # Prjs
 
 Prjs is a small tool that lives in the OSX menu bar that allows you to open a directory with a given
-command. In my case, I often open a terminal, cd to a specific directory (~/prjs/wouter in my case) and
-type `subl .`
+command. To open a project in my editor, I often open a terminal, cd to a specific directory (~/prjs/wouter in my case) and type `subl .` or `vim .`, which often leaves me with a lot of terminal windows open.
 
 In Prjs you can configure multiple paths that serve as the root of you menu. So if you config ~/prjs/wouter
-then all subdirectories of ~/prjs/wouter will become available in the menu.
+then all subdirectories of ~/prjs/wouter will become available in the menu. Nex to that, you can configure with what
+command line application you want to open a chosen directory.
 
 ## Installing 
 
-Download a prebuilt binary from https://github.com/downloads/wouterdebie/prjs/Prjs.zip, unzip and drag
+Download a prebuilt binary from https://github.com/wouterdebie/prjs/downloads, unzip and drag
 to your Applications folder.
 
 ## Building
 
-Prjs is written using MacRuby. Make sure you have MacRuby installed to build it.
+Clone this repository and open it in XCode and build it.
+Note that Prjs is written using MacRuby. Make sure you have MacRuby installed to build it.
 
 ## TODO
 
@@ -28,8 +29,7 @@ Prjs is written using MacRuby. Make sure you have MacRuby installed to build it.
  * Fork the project
  * Start a feature/bugfix branch
  * Commit and push until you are happy with your contribution
- * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
- * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+ * Please try not to mess with version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 ## DISCLAIMER
 
